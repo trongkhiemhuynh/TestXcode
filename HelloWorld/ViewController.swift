@@ -10,15 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnPremierLeage : UIButton!
+    @IBOutlet weak var btnChampionLeage : UIButton!
+    
     var viewModel : ViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        print("Hello world")
+        self.btnPremierLeage.setTitle("PREMIER LEAGE", for: .normal)
+        self.btnChampionLeage.setTitle("CHAMPION LEAGE", for: .normal)
         
-        viewModel = ViewModel()
+        self.btnPremierLeage.layer.cornerRadius = 7.0
+        self.btnChampionLeage.layer.cornerRadius = 7.0
         
     }
 

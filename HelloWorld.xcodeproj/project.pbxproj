@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		088B5BF8207E1769008F81C4 /* PremierLeagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088B5BF7207E1769008F81C4 /* PremierLeagueViewController.swift */; };
 		2E5D7A68205676CC004A8312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D7A67205676CC004A8312 /* AppDelegate.swift */; };
-		2E5D7A6A205676CC004A8312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D7A69205676CC004A8312 /* ViewController.swift */; };
+		2E5D7A6A205676CC004A8312 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D7A69205676CC004A8312 /* MainViewController.swift */; };
 		2E5D7A6D205676CC004A8312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D7A6B205676CC004A8312 /* Main.storyboard */; };
 		2E5D7A6F205676CC004A8312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D7A6E205676CC004A8312 /* Assets.xcassets */; };
 		2E5D7A72205676CC004A8312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D7A70205676CC004A8312 /* LaunchScreen.storyboard */; };
@@ -39,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		088B5BF7207E1769008F81C4 /* PremierLeagueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremierLeagueViewController.swift; sourceTree = "<group>"; };
 		2E5D7A64205676CC004A8312 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5D7A67205676CC004A8312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E5D7A69205676CC004A8312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E5D7A69205676CC004A8312 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2E5D7A6C205676CC004A8312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E5D7A6E205676CC004A8312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E5D7A71205676CC004A8312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				2E5D7A67205676CC004A8312 /* AppDelegate.swift */,
-				2E5D7A69205676CC004A8312 /* ViewController.swift */,
+				2E5D7A69205676CC004A8312 /* MainViewController.swift */,
 				2E5D7A6B205676CC004A8312 /* Main.storyboard */,
 				2E5D7A6E205676CC004A8312 /* Assets.xcassets */,
 				2E5D7A70205676CC004A8312 /* LaunchScreen.storyboard */,
@@ -118,6 +120,7 @@
 				2E5D7A992056800A004A8312 /* Networking.swift */,
 				2E5D7A9B20568026004A8312 /* ViewModel.swift */,
 				2E5D7A9D20568131004A8312 /* DetailViewController.swift */,
+				088B5BF7207E1769008F81C4 /* PremierLeagueViewController.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -274,12 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5D7A6A205676CC004A8312 /* ViewController.swift in Sources */,
+				2E5D7A6A205676CC004A8312 /* MainViewController.swift in Sources */,
 				2E5D7A9A2056800A004A8312 /* Networking.swift in Sources */,
 				2E5D7A9620567FA1004A8312 /* DataManager.swift in Sources */,
 				2E5D7A68205676CC004A8312 /* AppDelegate.swift in Sources */,
 				2E5D7A9C20568026004A8312 /* ViewModel.swift in Sources */,
 				2E5D7A9820567FDA004A8312 /* ServiceLayer.swift in Sources */,
+				088B5BF8207E1769008F81C4 /* PremierLeagueViewController.swift in Sources */,
 				2E5D7A9E20568131004A8312 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

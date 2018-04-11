@@ -24,13 +24,12 @@ class ViewController: UIViewController {
         self.btnPremierLeage.layer.cornerRadius = 7.0
         self.btnChampionLeage.layer.cornerRadius = 7.0
         
+        let imageView = UIImageView(frame: self.view.bounds)
+        imageView.image = UIImage(named: "UCL")
+        imageView.contentMode = .scaleAspectFill
+        
+        self.view.insertSubview(imageView, at: 0)
+
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
